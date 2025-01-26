@@ -20,12 +20,15 @@ html{
 }
 
 /* Scroll-snap */
-.servicios,
-.navegacion-principal, 
-.footer,
-.formulario {
-    scroll-snap-align: center;
-    scroll-snap-stop: always;
+@media (min-width: 768px) {
+    .servicios,
+    .navegacion-principal, 
+    .footer,
+    .formulario {
+        scroll-snap-align: center;
+        scroll-snap-stop: always;
+    }
+    
 }
 
 body{
